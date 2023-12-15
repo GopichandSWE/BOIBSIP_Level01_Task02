@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+
+.hero{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(to right, rgb(0, 0, 11),rgb(94, 113, 112));
+    position: relative;
+    
+}
+
+.logo{
+    height: 50px;
+    mix-blend-mode:multiply;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, red , blue);
+    position:fixed;
+    z-index: 1;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+    color:#555;
+    background-color: #fff;
+    transition: 0.3s;
+   
+
+}
+
+.details{
+    padding-left: 15%;
+    padding-top: 30vh;
+    width:50%;
+
+   
+}
+
+.name{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+.description p{
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.details .cv{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    color: #272525;
+    border-radius: 10px;
+}
+
+.svg_container{
+
+    position: absolute;
+    bottom: 10%;
+    right:0%;
+    /*filter: drop-shadow(10px 8px 6px #ff0055); */         /* the drop-shadow gives the shadow effect to the content of the image */
+    
+}
+
+.svg_container{
+    width: 40%;
+}
+
+#photo{
+    width: 50px;
+}
+
+
+.skills{
+    background-color: #555;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+.socialIcons{
+    margin-left: 25%;
+    margin-top: 7vh ;
+    font-size: 45px;
+    
+}
+
+.socialIcons a{
+    color: #fff;
+    margin: 20px;
+}
+
+.socialIcons a:hover{
+    text-shadow: 0 0 20px whitesmoke;
+}
+
+.techskills{
+    padding:10vh 10vw;
+    
+}
+
+.icons{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+figure{
+    width: fit-content;
+    display: grid;
+    place-items: center;
+    padding: 0 40px ;
+}
+
+figure i{
+    font-size: 60px;
+
+}
+
+.projects{
+    height: 40vh;
+    padding: 50px;
+}
+
+.projects h1{
+    padding: 20px 140px;
+}
+
+.project:first-child{
+    height: 30vh;
+    width: 30vw;
+    border: #fff solid;
+    background-image: url(assets/reservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.project:nth-child(2){
+    height: 30vh;
+    width: 30vw;
+    border: #fff solid;
+    background-image: url(assets/addmission.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.project:nth-child(3){
+    height: 30vh;
+    display: grid;
+    align-items: center;
+}
+
+.project:nth-child(3) a{
+    color: #fff;
+}
+.project .text{
+    padding: 10px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.P-content{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 40px;
+}
+
+.project:hover .text{
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.about{
+    background-color: #555;
+    color: #fff;
+    height: 40vh;
+    padding: 50px;
+}
+
+.sideHeading{
+    padding: 30px 150px;
+    font-size: large;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    font-size: larger;
+}
+
+
+.contact1{
+    background-color: #555;
+    color: #fff;
+    height: 80vh;
+    width: 100%;
+}
+
+.contact1 h1{
+    padding-left: 200px;
+}
+
+.contact{
+    height: 50vh;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+}
+
+.column{
+    flex:1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-line{
+    height: 50vh;
+    width: 5px;
+    background-color: rgb(241, 206, 206);
+    border-radius: 90px;
+    margin: 0 0px;
+} 
+
+.right-column input{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 25px;
+    line-height: 4px;
+}
+
+.right-column textarea{
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: deepskyblue;
+    border: none;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.left-column a{
+    margin: 20px;
+    font-size:30px;
+    color: #fff;
+}
+
+.left-column a:hover{
+    text-shadow: 0 0 20px whitesmoke;
+}
